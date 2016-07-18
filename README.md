@@ -1,4 +1,4 @@
-# Reactjs with Stubby 
+# Stubby With Reactjs
 
 
 Stubby makes your development environment act more like your
@@ -31,6 +31,7 @@ Install the this project:
 Gulp will use "gulpfile.js" and bundles all Javascript in './app/dist/main.js'. It also copies required css files in './app/dist/'.
 
 Now start the server.
+
     > $ npm start
     
 Now the server is running on http://localhost:7777
