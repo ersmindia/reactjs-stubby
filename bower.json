@@ -1,0 +1,24 @@
+{
+  "name": "schoolpro",
+  "description": "My schoolListing",
+  "main": "index.js",
+  "authors": [
+    "Santhosh"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "School",
+    "India"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-css": "^3.3.6"
+  }
+}

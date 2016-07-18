@@ -1,0 +1,27 @@
+-  request:
+      url: ^/api/schools
+      method: GET
+   response:
+      headers:
+         Content-Type: application/json
+      latency: 1000
+      status: 200
+      body: [{"_id":"1","name":"Santhosh","tagline":"A good school","__v":0},{"_id":"2","name":"India","tagline":"Tamil","__v":0}]
+-  request:
+      url: ^/api/schools
+      method: POST
+   response:
+      headers:
+         Content-Type: application/json
+      latency: 1000
+      status: 200
+      body: [{"_id":"1","name":"Santhosh","tagline":"A good school","__v":0},{"_id":"2","name":"India","tagline":"Tamil","__v":0},{"_id":"3","name":"Kumar","tagline":"Great School","__v":0}]
+-  request:
+      url: ^/api/schools
+      method: DELETE
+   response:
+      headers:
+         Content-Type: application/json
+      latency: 1000
+      status: 200
+      body: [{"_id":"1","name":"Santhosh","tagline":"A good school","__v":0},{"_id":"2","name":"India","tagline":"Tamil","__v":0}]
